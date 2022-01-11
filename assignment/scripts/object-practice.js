@@ -10,16 +10,19 @@ console.log('***** Object Practice *****')
 */
 const me = {
   // TODO - add properties here
-  firstName: 'Tony';
-  lastName: 'La Forgia';
-  hasSiblings = true;
-  if (hasSiblings === true){
+  firstName: 'Tony',
+  lastName: 'La Forgia',
+  hasSiblings: 2,
+  shoeCount: 6,
+  favThreeFoods: [tacos, fruit, burgers]
+}
+  if (hasSiblings > 0){
     return true;
   }
   else{
     return false;
   }
-};
+
 console.log('A little about me:', me);
 
 /* 2. Accessing object properties.
