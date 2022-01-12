@@ -11,17 +11,11 @@ console.log('***** Object Practice *****')
 const me = {
   // TODO - add properties here
   firstName: 'Tony',
-  lastName: 'La Forgia',
-  hasSiblings: 2,
+  lastName: ' La Forgia',
+  hasSiblings: true,
   shoeCount: 6,
-  favThreeFoods: [tacos, fruit, burgers]
-}
-  if (hasSiblings > 0){
-    return true;
-  }
-  else{
-    return false;
-  }
+  favThreeFoods: ['tacos', 'fruit', 'burgers']
+};
 
 console.log('A little about me:', me);
 
@@ -31,7 +25,8 @@ console.log('A little about me:', me);
     created above to set its value.
   - Console.log fullName
 */
-
+let fullName = me.firstName + me.lastName;
+console.log(fullName);
 
 
 /* 3. Nested arrays
