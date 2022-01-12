@@ -43,6 +43,9 @@ console.log(me.favThreeFoods[2]);
   - Console.log your updated shoe count.
 */
 console.log(me.shoeCount);
+// Or... console.log(me.shoeCount + 1); seems to work as well. Not sure which is the "correct" way or "better" way. I bet Liz knows!!
+me.shoeCount++;
+console.log(me.shoeCount);
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
