@@ -53,3 +53,8 @@ console.log(me.shoeCount);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+me.favoriteColor = 'black';
+console.log(me);
+//  In the console log, me.favoriteColor shows up... strangely? I have to extend the line,
+// which hows me what is in the array, and favoriteColor color does show up.
+// But in a strange order. What does this mean?
